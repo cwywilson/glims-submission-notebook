@@ -5,10 +5,14 @@ This repository contains a Jupyter notebook—**Prepare glacier outlines + centr
 2. Writes GLIMS-compliant Shapefiles ready for upload.
 3. Logs processing steps to ease reproducibility.
 
+📄 **Official guidelines:** [Submitting Data to GLIMS (PDF, 2020-02-06)](http://www.glims.org/MapsAndDocs/submitting_data_to_glims_2020-02-06.pdf)
+<!-- GLIMS logo -->
+<p align="center">
+  <img src="https://www.glims.org/MapsAndDocs/glims_logo_smooth_small.png"
+       alt="GLIMS – Global Land Ice Measurements from Space" width="240"/>
+</p>
+---
+
 ## Requirements
 Python ≥3.9 with `geopandas`, `shapely`, and `fiona`.  
 Run `pip install -r requirements.txt` if you add one.
-
-## Usage
-```bash
-jupyter notebook "GLIMS format for submitting.ipynb"
