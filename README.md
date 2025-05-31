@@ -15,4 +15,3 @@ This repository contains a Jupyter notebook—**Prepare glacier outlines + centr
 
 ## Requirements
 Python ≥3.9 with `geopandas`, `shapely`, and `fiona`.  
-Run `pip install -r requirements.txt` if you add one.
