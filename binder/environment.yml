@@ -2,7 +2,13 @@ name: glims
 channels:
   - conda-forge
 dependencies:
-  - python=3.9
+  - python=3.10
+  - jupyterlab
   - geopandas
-  - shapely
+  - shapely>=2
   - fiona
+  - pyproj
+  - rtree
+  - gdal
+  - ipykernel
+  - matplotlib

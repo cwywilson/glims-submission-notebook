@@ -3,7 +3,7 @@
 ## Overview
 This repository contains a Jupyter notebook—**Prepare glacier outlines + centre-lines for submission to GLIMS**—that:
 
-1. Repairs geometry and re-projects glacier outlines (1958 & 2023) and centre-lines.
+1. Repairs geometry and re-projects glacier outlines (1960 & 2023) and centre-lines.
 2. Writes GLIMS-compliant Shapefiles ready for upload.
 3. Logs processing steps to ease reproducibility.
 
@@ -16,4 +16,10 @@ This repository contains a Jupyter notebook—**Prepare glacier outlines + centr
 ---
 
 ## Requirements
-Python ≥3.9 with `geopandas`, `shapely`, and `fiona`.  
+Create the conda environment and install dependencies with:
+
+```bash
+conda env create -f environment.yml
+```
+
+This provides Python 3.10 and all packages used in the notebook.
