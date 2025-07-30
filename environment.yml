@@ -11,3 +11,4 @@ dependencies:
   - rtree
   - gdal
   - ipykernel
+  - matplotlib
