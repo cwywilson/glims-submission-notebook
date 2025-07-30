@@ -5,9 +5,10 @@ dependencies:
   - python=3.10
   - jupyterlab
   - geopandas
-  - shapely
+  - shapely>=2
   - fiona
   - pyproj
   - rtree
   - gdal
   - ipykernel
+  - matplotlib
