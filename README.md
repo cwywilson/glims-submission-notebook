@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cwywilson/glims-submission-notebook/HEAD?labpath=glims_submission_notebook.ipynb)
+
 ## Overview
 This repository contains a Jupyter notebook—**Prepare glacier outlines + centre-lines for submission to GLIMS**—that:
 
