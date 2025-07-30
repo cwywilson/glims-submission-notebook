@@ -1,0 +1,13 @@
+name: glims-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - geopandas
+  - shapely
+  - fiona
+  - pyproj
+  - rtree
+  - gdal
+  - ipykernel
